@@ -1,0 +1,940 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+/*global css*/
+body{
+ font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-1{
+	width: 8.3333% ;
+	float: left;
+}
+.col-md-2{
+	width: 16.6666% ;
+	float: left;
+}
+.col-md-3{
+	width: 24.9999%;
+	float: left;
+}
+.col-md-4{
+	width: 33.3332%;
+	float: left;
+}
+.col-md-5{
+	width: 41.6665%;
+	float: left;
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+.col-md-7{
+	width: 58.3331%;
+	float: left;
+}
+.col-md-8{
+	width: 66.6664%;
+	float: left;
+}
+.col-md-9{
+	width: 74.9997%;
+	float: left;
+}
+.col-md-10{
+	width: 83.333%;
+	float: left;
+}
+.col-md-11{
+	width: 91.6663%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+	
+}
+
+.no-padding{
+	padding: 0;
+}
+a{
+  text-decoration: none!important;
+}
+
+/*--------------------------Nav header--------------------*/
+.Nav-header{
+  float: left;
+	background-image: linear-gradient(to right top, #005086, #00436e, #003557, #012941, #041c2c);
+  width: 100%;
+  height: 600px;
+
+}
+
+.Nav-header nav{
+	background: transparent!important;
+	height: 79px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	  color: #fff;
+    font-size: 25px;
+    margin-left: 277px;
+     background-color: #666;
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    margin-left: -2px;
+    margin-right: 11px;
+    font-size: 25px;
+   font-family: 'Oswald';
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+    
+}
+ nav a.active{
+  color: red!important;
+  border-bottom-color: 2px solid #fff;
+}
+.Nav-header nav ul li a {
+    float: left;
+    font-family: 'Playfair Display', serif;
+
+}
+.c-btn{
+	  padding-left: 17px;
+    padding-right: 23px;
+    margin-left: 12px;
+    background: transparent;
+    border-color: transparent!important;
+    border-color: #000;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Oswald';
+    text-decoration: none;
+}
+
+.c-btn:hover{
+	background: transparent;
+	border-color: transparent;
+	color: red;
+}
+/*-----------------------------Banner-------------------------------*/
+
+
+
+.banner h1{
+  
+	  font-family: 'Playfair Display', serif;
+	  text-align: center;
+    margin-top: 46px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700; 
+}
+.banner p{
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Oswald';
+    letter-spacing: 3px;
+}
+/*-----------------------------ticket search-------------------------------*/
+
+.ticket-search{
+  	width: 100%;
+  	float: left;
+}
+
+.ticket{
+	  background-color: #fff;
+    padding-top: 32px;
+    width: 82%;
+    margin-left: 94px;
+    margin-bottom: 112px;
+    margin-top: -281px;
+    border-radius: 12px;
+
+}
+.ticket-search label{
+     font-weight: 700;
+     color: #222831;
+     font-family: 'Playfair', sans-serif;
+     margin-left: 47px;
+
+
+}
+
+.ticket-search .from{
+	  width: 100%;
+    height: 54px;
+    border-color: #000;
+    margin-left: 40px;
+}
+
+.ticket-search .to{
+    width: 100%;
+    height: 54px;
+    border-color: #000;
+    margin-left: 20px;
+}
+.ticket-search .date{
+	  width: 100%;
+    height: 54px;
+    border-radius: 5px;
+    margin-left: -4px;
+}
+.ticket-search .time{
+	  width: 100%;
+    height: 54px;
+    border-radius: 5px;
+    margin-left: -30px;
+}
+.ticket-search .search{
+     margin-top: -167px;
+     margin-left: 21px;
+}
+
+.ticket-search .search-btn{
+	  width: 120%;
+    height: 54px;
+    border-radius: 5px;
+    margin-top: -244px;
+    background: #0f4c75;
+    border-color: #318fb5;
+    color: #fff;
+    margin-left: 466px;
+    font-size: 30px;
+    padding-top: -2px;
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.ticket-search .search-btn:hover{
+  	background: #000;
+  	border-color: #000;
+  	color: #fff;
+}
+/*-----------------------------Why WE-------------------------------*/
+.service{
+  	float: left;
+  	width: 100%;
+  	padding-bottom: 94px;
+
+}
+.service h1{
+	  text-align: center;
+    font-size: 61px;
+    padding-top: 38px;
+    font-family: 'Playfair';
+   
+}
+
+.service .cover{
+	  margin-top: 54px;
+    text-align: center;
+    margin-left: 153px;
+    width: 70%;
+   
+}
+
+.num{
+	  font-size: 75px;
+    border: 6px solid;
+    background-image: linear-gradient(to right top, #005086, #00436e, #003557, #012941, #041c2c);
+    border-radius: 50%;
+    box-shadow: 2px 4px 3px 0px rgba(43 10 10),
+                2px 4px 6px 0px rgba(43 10 10),
+                2px 4px 7px 0px rgba(43 10 10);; 
+    margin-top: 57px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 192px;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+}
+.service h3{
+    margin-top: 22px;
+    margin-left: 11px;
+    font-family: 'Playfair';
+}
+.service h2{
+    margin-top: 26px;
+    margin-left: -32px;
+    font-size: 26px;
+    font-family: 'Playfair';
+}
+.service h4{
+     margin-top: 2px;
+     margin-left: 12px;
+     font-size: 26px;
+     font-family: 'Playfair';
+}
+
+/*-----------------------------WE Promise-------------------------------*/
+.promise{
+      width: 100%;
+      float: left;
+      background: #f7f7f7;
+      padding-bottom: 124px;
+}
+.promise h1{
+    text-align: center;
+    font-size: 63px;
+    padding-top: 38px;
+    font-family: 'Playfair';
+}
+
+.promise .box{
+      margin-top: 82px;
+      width: 100%;
+      margin-left: 115px;
+}
+
+.promise i{
+   margin: 0 auto;
+   display: block;
+   text-align: center;
+   font-size: 82px;
+   margin-top: 35px;
+}
+.promise h3{
+   text-align: center;
+   margin-top: 22px;
+   font-weight: 800;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   font-size: 41px;
+}
+
+.promise p{
+ 
+    text-align: center;
+    margin-top: 22px;
+    padding-bottom: 16px;
+    font-size: 21px;
+    font-family: 'Playfair';
+
+}
+
+.promise .box-color-1{
+    background: #fff;
+    border: 2px solid #f7f7f7;
+    box-shadow: 2px 3px 4px 0px rgb(120,120,120);
+    margin-right: 22px;
+}
+.promise .box-color-2{
+    background: #fff;
+    border: 2px solid #f7f7f7;
+    box-shadow: 2px 3px 4px 0px rgb(120,120,120);
+    margin-right: 22px;
+}
+.promise .box-color-3{
+   background: #fff;
+   border: 2px solid #f7f7f7;
+   box-shadow: 2px 3px 4px 0px rgb(120,120,120);
+   margin-right: 22px;
+}
+
+/*==========================================
+ =============================================Payment availavle======================================*/
+
+
+.payment-available{
+      width: 100%;
+      float: left;
+      background: #f7f7f7;
+      padding-bottom: 124px;
+          margin-top: 5px;
+}
+.payment-available .box{
+      margin-top: 82px;
+      width: 100%;
+      margin-left: 115px;
+}
+
+.payment-available h1{
+    text-align: center;
+    font-size: 63px;
+    padding-top: 38px;
+    font-family: 'Playfair';
+}
+.payment-available .box img{
+  display: block;
+  margin: 0 auto;
+  width: 66%;
+  padding-left: 1px;
+}
+
+.payment-available .box-color-1{
+    background: #fff;
+    border: 2px solid #f7f7f7;
+    box-shadow: 2px 3px 4px 0px rgb(120,120,120);
+    margin-right: 22px;
+}
+.payment-available .box-color-2{
+    background: #fff;
+    border: 2px solid #f7f7f7;
+    box-shadow: 2px 3px 4px 0px rgb(120,120,120);
+    margin-right: 22px;
+}
+.payment-available .box-color-3{
+   background: #fff;
+   border: 2px solid #f7f7f7;
+   box-shadow: 2px 3px 4px 0px rgb(120,120,120);
+   margin-right: 22px;
+   padding-top: 28px;
+}
+
+/*-----------------------------Footer-------------------------------*/
+
+footer{
+	float: left;
+	width: 100%;
+  background-image: linear-gradient(to right top, #005086, #00436e, #003557, #012941, #041c2c);
+  height: 225px;
+  height: 296px;
+
+ }
+
+footer h3{
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 44px;
+    color: #fff;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+footer p{
+    color: #fff;
+    font-family: 'Playfair';
+    font-size: 21px;
+}
+.reserved p{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/*==========================================
+ =============================================Booking page======================================*/
+
+
+.uni-header{
+  float: left;
+  background-image: linear-gradient(to right top, #005086, #00436e, #003557, #012941, #041c2c);
+  width: 100%;
+  
+}
+
+.uni-header nav{
+  background: transparent!important;
+  height: 79px;
+}
+
+.booking-form{
+   height: 790px;
+   margin-top: -790px;
+}
+.booking-body{
+ height: 500px;
+}
+
+.booking{
+     height: 652px;
+     background-image: linear-gradient(to right top, #bbe1fa, #91b9d7, #6893b6, #3f6f95, #0f4c75);
+     margin-top: 106px;
+     box-shadow: 5px 5px #000;
+     margin-bottom: 54px;
+}
+.form{
+    margin-top: 17px;
+}
+
+.booking-form p{
+   padding-left: 64px;
+   color: #000;
+}
+.book{
+    color: white;
+    margin-top: 29px;
+    font-size: 30px;
+    border-bottom: 1px solid #000;
+}
+.confirm{
+	background-color: #000;
+	border-color: #0000;
+	margin-top: 27px;
+  margin-left: 14px;
+  
+}
+
+.confirm:hover{
+	background-color: #fa9191!important;
+  border-color: #fa9191!important;
+}
+.booking-form label{
+        margin-right: 41px;
+        color: #000;
+}
+
+/*==========================================
+ =============================================Sign In page======================================*/
+
+
+.sign {
+    background-image: linear-gradient(to right top, #bbe1fa, #91b9d7, #6893b6, #3f6f95, #0f4c75);
+    height: 400px;
+    margin-top: 106px;
+    box-shadow: 5px 5px #f7f7f7;
+}
+.log {
+    margin-top: 26px;
+    border-bottom: 1px solid #000;
+}
+.lnp {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000;
+    padding-left: 116px;
+    margin-bottom: 2px;
+    
+}
+.si input{
+	width: 115%;
+    
+}
+.fop{
+      margin-top: 24px;
+}
+.fp{
+     margin-left: 89px;
+    color: ghostwhite;
+}
+
+.user{
+	border-bottom: 1px solid #fff;
+
+}
+.pass{
+    border-bottom: 1px solid #fff;
+    margin-top: 27px;
+}
+.us{
+    margin-top: 40px;
+    background-color: #4E2A68;
+    border-color: #4E2A68;
+}
+.ps{
+   
+    background-color: #4E2A68;
+    border-color: #4E2A68;
+}
+.si{
+
+
+   margin: 42px
+}
+.bu {
+    margin-top: 29px;
+    padding-right: 168px;
+    margin-left: 57px;
+    display: block;
+    background-color: #18224D;
+    border-color: #18224D;
+    padding-bottom: 9px;
+}
+.sign-form .confirm{
+	background-color: #000;
+	border-color: #0000;
+	margin-top: 27px;
+	margin-left: -12px;
+  width: 128%;
+}
+.sign-form .confirm:hover{
+	background-color: #fa9191!important;
+	border-color: #fa9191!important;
+}
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%; 
+    pointer-events: auto;
+    background-color: transparent; 
+    background-clip: 0px padding-box; 
+    border: 0px solid rgba(0,0,0,.2); 
+    outline: 0; 
+}
+
+
+/*==========================================
+ =============================================Sign Up page======================================*/
+
+
+.sign_up_form{
+ height: 1140px;
+}
+
+
+.registration{
+    background-image: linear-gradient(to right top, #bbe1fa, #91b9d7, #6893b6, #3f6f95, #0f4c75);
+    height: 515px;
+    margin-top: 106px;
+    box-shadow: 5px 5px #f7f7f7;
+    margin-bottom: 52px;
+}
+.form{
+    margin-top: 17px;
+}
+
+.rf{
+   padding-left: 64px;
+    color: #000;
+}
+.ref {
+    color: white;
+    margin-top: 29px;
+    font-size: 30px;
+    border-bottom: 1px solid #000;
+}
+.form p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+
+}
+.sign_up_form .confirm{
+	background-color: #000;
+	border-color: #0000;
+	margin-top: 6px;
+}
+.sign_up_form .confirm:hover{
+	background-color: #fa9191!important;
+	border-color: #fa9191!important;
+	color: #000;
+}
+.sign_up_form label{
+        margin-right: 41px;
+}
+.sign_up_form .confirm{
+  background-color: #000;
+  border-color: #0000;
+  margin-top: 1px;
+     margin-left: -1px;
+
+}
+.sign_up_form .confirm:hover{
+  background-color: #fa9191!important;
+  border-color: #fa9191!important;
+}
+
+/*==========================================
+ =============================================Add ticket Info page======================================*/
+
+
+
+.adding-form{
+   height: 790px;
+   margin-top: -790px;
+}
+
+.adding{
+    height: 536px;
+    background-image: linear-gradient(to right top, #bbe1fa, #91b9d7, #6893b6, #3f6f95, #0f4c75);
+    margin-top: 106px;
+    box-shadow: 5px 5px #000;
+    margin-bottom: 99px;
+
+}
+.form{
+    margin-top: 17px;
+}
+
+.adding-form p{
+   padding-left: 64px;
+   color: #000;
+}
+.add{
+    color: white;
+    margin-top: 29px;
+    font-size: 30px;
+    border-bottom: 1px solid #000;
+}
+.confirm{
+  background-color: #000;
+  border-color: #0000;
+  margin-top: 27px;
+}
+
+.confirm:hover{
+  background-color: #bac964!important;
+  border-color: #bac964!important;
+  color: #000;
+
+
+}
+.adding-form label{
+        margin-right: 41px;
+        color: #fff;
+}
+
+
+
+/*==========================================
+ =============================================Admin page======================================*/
+
+.admin-nav .navbar-light .navbar-nav .active>.nav-link{
+    color: #000;
+    font-size: 25px;
+    margin-left: 416px;
+}
+ .new_admin{
+   width: 100%;
+   float: left;
+   height: 500px;
+   background-color: #f7f7f7;
+ }
+  .new_admin h3{
+          margin-top: 100px;
+          font-size: 33px;
+          font-family: pt;
+ }
+  .new_admin .add-btn{
+    margin-top: 100px;
+    margin-left: -73px;
+    background: #ed6663;
+    color: #000;
+    border-color: #fff;
+    text-decoration: none;
+    }
+    .new_admin .add-btn:hover{
+  
+    background: #000;
+    color: #fff;
+    border-color: #000;
+    }
+.ad-ti h3{
+     margin-top: 15px;
+    font-size: 33px;
+    font-family: pt;
+ }   
+.ad-ti .add-btn{
+    margin-top: 15px;
+    margin-left: -73px;
+    background: #ed6663;
+    color: #000;
+    border-color: #fff;
+    text-decoration: none;
+    }
+
+.ad-ti .add-btn:hover{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+    }
+.admin-box{
+   
+    box-shadow: 0 6px 11px 0 hsla(0,0%,75%,.5);
+    background-color: #fff;
+    margin-top: 49px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    width: 48%;
+    padding-left: 103px;
+
+
+    }
+
+    .admin-img{
+          margin-left: 577px;
+          margin-top: -405px;
+    }
+
+    /*==========================================
+ =============================================User List page======================================*/
+.user-list{
+
+}
+.user-list h1{
+    text-align: center;
+    margin-bottom: 62px;
+    margin-top: 40px;
+    padding-left: 310px;
+    font-size: 50px;
+    font-family: 'Oswald';
+    color: #0f4c75;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #0f4c75;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/*==========================================
+ =============================================Payment page======================================*/
+.payment-form .sign {
+    background-image: linear-gradient(to right top, #bbe1fa, #91b9d7, #6893b6, #3f6f95, #0f4c75);
+    height: 350px;
+    margin-top: 106px;
+    box-shadow: 5px 5px #f7f7f7;
+}
+.payment-form .log {
+    margin-top: 26px;
+    border-bottom: 1px solid #000;
+}
+.payment-form p{
+  text-align: justify;
+    color: #fff;
+}
+.payment-form .lnp {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000;
+    padding-left: 116px;
+    margin-bottom: 2px;
+    
+}
+.payment-form .si input{
+    width: 126%;
+    margin-left: -11px;
+}
+.payment-form .fop{
+      margin-top: 24px;
+}
+.payment-form .fp{
+     margin-left: 89px;
+     color: ghostwhite;
+}
+
+.payment-form .user{
+  border-bottom: 1px solid #fff;
+
+}
+.payment-form .pass{
+    border-bottom: 1px solid #fff;
+    margin-top: 27px;
+}
+.payment-form .us{
+    margin-top: 40px;
+    background-color: #4E2A68;
+    border-color: #4E2A68;
+}
+.payment-form .ps{
+   
+    background-color: #4E2A68;
+    border-color: #4E2A68;
+}
+ .payment-form .si{
+
+
+   margin: 42px
+}
+.payment-form .bu {
+    margin-top: 29px;
+    padding-right: 168px;
+    margin-left: 57px;
+    display: block;
+    background-color: #18224D;
+    border-color: #18224D;
+    padding-bottom: 9px;
+}
+.payment-form .confirm{
+      background-color: #000;
+    border-color: #0000;
+    margin-top: 7px;
+    margin-left: -12px;
+    width: 128%;
+}
+.payment-form .confirm:hover{
+  background-color: #fa9191!important;
+  border-color: #fa9191!important;
+}
+
+/*==========================================
+ =============================================E-Ticket page======================================*/
+
+.E-ticket{
+  width: 100%;
+  float: left;
+  margin-top: 106px;
+  margin-bottom: 54px;
+}
+.header-E-ticket h1{
+  text-align: center;
+  font-family: 'Oswald';
+  color: #0f4c75;
+  margin-top: 58px;
+}
+.header-E-ticket p{
+  text-align: center;
+  font-family: 'Oswald';
+  color: #0f4c75;
+  font-size: 21px;
+}
+
+/*==========================================
+ =============================================Add new admin page======================================*/
+
+ .confirm-add{
+  background-color: #000;
+  border-color: #0000;
+  margin-top: 10px;
+  margin-left: -1px;
+}
+
+ .confirm-add:hover{
+  background-color: #bac964!important;
+  border-color: #bac964!important;
+  color: #000;
+
+
+}
+/*==========================================
+ ============================================= Add ticket info page======================================*/
+ .confirm-service{
+  background-color: #000;
+  border-color: #0000;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+ .confirm-service:hover{
+  background-color: #bac964!important;
+  border-color: #bac964!important;
+  color: #000;
